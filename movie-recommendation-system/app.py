@@ -101,10 +101,8 @@ API_KEY = os.getenv("OMDB_API_KEY")
 
 # -------- DOWNLOAD PKL FILES IF NOT PRESENT --------
 
-movies_url = "https://drive.google.com/file/d/1tUhkx7VcCdX0FCpfvPkEhsZrzkqsftUC/view?usp=drive_link
-"
-similarity_url = "https://drive.google.com/file/d/1oqVjmRUYrSfnTZyC0L5R8QN5r080BOCo/view?usp=drive_link
-"
+movies_url = "https://drive.google.com/file/d/1tUhkx7VcCdX0FCpfvPkEhsZrzkqsftUC/view?usp=drive_link"
+similarity_url = "https://drive.google.com/file/d/1oqVjmRUYrSfnTZyC0L5R8QN5r080BOCo/view?usp=drive_link"
 
 if not os.path.exists("movies.pkl"):
     gdown.download(movies_url, "movies.pkl", quiet=False)
