@@ -6,7 +6,7 @@ __pycache__/
 *.pyc
 
 # Jupyter notebooks
-*.ipynb
+# *.ipynb
 
 # Dataset files
 *.csv
